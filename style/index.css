@@ -268,6 +268,13 @@ p {
     text-align: center
 }
 
+.city {
+    width:100%;
+}
+.top-about
+{
+    border-bottom: 2px dotted black;
+}
 .map {
     display:flex;
     justify-content: space-between;
@@ -275,10 +282,11 @@ p {
     width: 90%;
     justify-items: center;
     margin-top: 20px;
+    margin-left: 7%;
+    margin-right:7%;
+    
 }
-.map p{
-    margin-bottom: 50px;
-}
+
 .work {
     display: flex;
     flex-direction: row;
@@ -289,32 +297,13 @@ p {
     margin-top: 20px;
     height: 30%;
     padding-top: 10px;
-    border: 2px solid black;
-}
-/*
-.strategy {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-    margin-left:10px; 
-    height: 30%;
-    border: 2px solid black;
+    padding-right: 5px;
+    border-bottom: 2px dotted black;
 }
 
-.middletext {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 20px;
-    margin-left:500px; 
-    padding: 10px;
-    border: 2px solid black;
+.together {
+    margin: 20px 0 10px;
 }
-*/
 footer {
     width: 100%;
     background: black;
