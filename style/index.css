@@ -28,6 +28,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+head {
+    display:flex;
+    justify-content: space-evenly;
+}
+
 body {
 	line-height: 1;
 }
